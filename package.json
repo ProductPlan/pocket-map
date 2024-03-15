@@ -14,9 +14,12 @@
   "devDependencies": {
     "@types/jquery": "^3.5.29",
     "prettier": "^3.2.5",
+    "standard-version": "^9.5.0",
     "typescript": "^5.4.2"
   },
-  "scripts": {},
+  "scripts": {
+    "release": "yarn standard-version"
+  },
   "files": [
     "dist/"
   ]
