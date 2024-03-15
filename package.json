@@ -1,6 +1,6 @@
 {
-  "name": "mini-map",
-  "version": "0.0.1",
+  "name": "pocket-map",
+  "version": "1.0.0",
   "main": "dist/mini-map.js",
   "author": "James <jmsabercrombie88@gmail.com>",
   "license": "MIT",
