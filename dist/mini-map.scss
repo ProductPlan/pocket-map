@@ -1,0 +1,42 @@
+#mini-map-wrapper {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 36px;
+  right: 0;
+  z-index: 999999999;
+  box-shadow: 0px 0px 10px 0px rgba(40, 41, 41, 0.2);
+  overflow: hidden;
+  background: white;
+  border-radius: 4px;
+  transition: height 0.2s;
+}
+
+.mini-map {
+  transform-origin: top left;
+}
+
+.map-blocker {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 990;
+  bottom: 0;
+  cursor: crosshair;
+}
+
+.mini-map-viewport {
+  background: rgba(40, 41, 41, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transform-origin: top left;
+  transform: scale(0.1);
+  cursor: grab;
+
+  &.active {
+    cursor: grabbing;
+  }
+}

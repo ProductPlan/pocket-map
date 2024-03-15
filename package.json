@@ -1,0 +1,23 @@
+{
+  "name": "mini-map",
+  "version": "0.0.1",
+  "main": "dist/mini-map.js",
+  "author": "James <jmsabercrombie88@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {},
+  "files": [
+    "dist/"
+  ]
+}
